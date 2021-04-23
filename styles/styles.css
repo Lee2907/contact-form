@@ -1,0 +1,48 @@
+body {
+    width: auto;
+    height: auto;
+    background-image: url(https://picsum.photos/200/300?grayscale);
+    background-size: cover;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+contact-form {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #933b3b, #ae4747);
+    box-shadow:  38px 38px 76px #8b3838,
+             -38px -38px 76px #bb4c4c;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-group {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-label {
+    display: none;
+}
+
+.form-input {
+    background: rgba( 255, 255, 255, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.0px );
+    -webkit-backdrop-filter: blur( 12.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-items: center;
+    justify-content: center;
+
+}
